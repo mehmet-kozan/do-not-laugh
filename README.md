@@ -4,6 +4,7 @@ A simple AI game experiment which shows how to integrate TensorFlow.js based [fa
 
 ## How to run
 - Clone or download the repository
+- set env to development `npm config set -g production false`
 - Install all dependencies with `npm i`
 - Download the required model files [from here](https://github.com/justadudewhohacks/face-api.js/tree/master/weights "from here") and put them into the `/public/data/weights` folder
 - Build the application with `npm run electron:build`
